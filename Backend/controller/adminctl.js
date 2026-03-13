@@ -1,8 +1,8 @@
 const jwt = require("jsonwebtoken");
 
 // 🔒 STATIC ADMIN CREDENTIALS
-const ADMIN_EMAIL = "admin@gmail.com";
-const ADMIN_PASSWORD = "12345";
+const ADMIN_EMAIL = "haresh@apexa.com";
+const ADMIN_PASSWORD = "Haresh@123";
 
 exports.loginAdmin = (req, res) => {
   const { email, password } = req.body;
